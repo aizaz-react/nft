@@ -1,0 +1,29 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 0.5rem 3.3rem;
+  width: auto;
+  h1 {
+    font-size: 4rem;
+    background: linear-gradient(90deg, #00dbde -100%, #fc00ff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: $font-family;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+  }
+  p {
+    color: #fff;
+    font-family: $font-family-roboto;
+    font-size: 1.3rem;
+  }
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+  }
+}

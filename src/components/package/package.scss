@@ -1,0 +1,44 @@
+.package {
+  display: flex;
+  background: linear-gradient(90deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  padding: 2rem 3rem;
+  .package-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    text-align: start;
+    gap: 1rem;
+    h1 {
+      color: #e2c668;
+      font-size: 2.2rem;
+    }
+    p {
+      color: #fff;
+      font-size: 1.2rem;
+      font-family: $font-family-roboto;
+      font-weight: 400;
+    }
+    button {
+      font-size: 1.9rem;
+      background: linear-gradient(90deg, #7918f2 48%, #4801ff 100%);
+      border: none;
+      border: 3px solid #000000;
+      box-shadow: -5px -5px 1px #000000;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+    button:active {
+      color: #000;
+    }
+    button:hover {
+      background-image: linear-gradient(
+        90deg,
+        #ac32e470 0%,
+        #7918f270 48%,
+        #4801ff70 100%
+      );
+    }
+  }
+}

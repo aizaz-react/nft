@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+$background-color: #121212;
+$font-family: "Poppins", sans-serif;
+$font-family-roboto: "Roboto";
+$button-gradient: linear-gradient(90deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+$text-gradient: linear-gradient(90deg, #00dbde 40%, #fc00ff 100%);
+.App {
+  text-align: center;
+  max-width: 100vw;
+  background-color: $background-color;
+  overflow-x: hidden;
+  // overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+@import "./components/navbar/navbar.scss";
+@import "./components/footer/footer.scss";
+@import "./components/hero/hero.scss";
+@import "./components/collection/collection.scss";
+@import "./components/card/card.scss";
+@import "./components/package/package.scss";
+@import "./components/newsletter/newsletter.scss";
+
+.roundleft {
+  width: 18rem;
+  position: absolute;
+  right: 0;
+}
+
+.roundright {
+  width: 18rem;
+  position: absolute;
+  left: 0;
+  top: 6rem;
+}
+
+.arrow {
+  width: 31rem;
+  position: absolute;
+  left: 5.5rem;
+}
+
+.dotted-left {
+  width: 38rem;
+  position: absolute;
+  right: 5.5rem;
+  top: 33rem;
+}
+
+.dotted-right {
+  width: 38rem;
+  height: 67rem;
+  position: absolute;
+  left: -3.9rem;
+  top: 88rem;
+}

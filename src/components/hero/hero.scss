@@ -1,0 +1,119 @@
+.hero-container {
+  display: flex;
+  padding: 3rem;
+  width: auto;
+  .hero-image {
+    width: 40%;
+    img {
+      width: 30rem;
+      margin-top: -7rem;
+    }
+  }
+  .hero-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    .hero-heading {
+      width: 70%;
+      h1 {
+        font-size: 5rem;
+        color: #fff;
+        text-align: start;
+      }
+      h3 {
+        text-align: end;
+        font-size: 1.5rem;
+        background: $text-gradient;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: $font-family-roboto;
+        font-weight: 500;
+      }
+      .image1 {
+        width: 3rem;
+        position: relative;
+        top: -110px;
+        left: 239px;
+      }
+      .image2 {
+        width: 3rem;
+        position: relative;
+        top: -140px;
+        left: 180px;
+        transform: rotate(-20deg);
+      }
+      .image3 {
+        width: 3rem;
+        position: relative;
+        top: -160px;
+        left: 109px;
+        transform: rotate(-35deg);
+      }
+    }
+
+    .hero-description {
+      width: 90%;
+      text-align: end;
+      margin-top: 2rem;
+      p {
+        font-family: $font-family;
+        font-weight: 500;
+        color: #fff;
+        font-size: 1.3rem;
+        span {
+          font-weight: 800;
+        }
+      }
+      #color-text {
+        color: #967cfb;
+        font-weight: bold;
+      }
+    }
+    .hero-input {
+      width: 90%;
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1em;
+      input {
+        border: 5px solid #967cfb;
+        background: transparent;
+        width: 50%;
+        height: 4rem;
+        text-align: center;
+        color: gray;
+        font-size: 1em;
+        font-family: $font-family-roboto;
+        font-weight: 100;
+      }
+      input::-webkit-input-placeholder {
+        text-align: center;
+        font-size: 1rem;
+        font-family: $font-family-roboto;
+        font-weight: 100;
+      }
+      button {
+        background: $button-gradient;
+        color: #fff;
+        border: none;
+        width: 30%;
+        font-family: $font-family;
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+      button:active {
+        color: #000;
+      }
+      button:hover {
+        background-image: linear-gradient(
+          90deg,
+          #ac32e470 0%,
+          #7918f270 48%,
+          #4801ff70 100%
+        );
+      }
+    }
+  }
+}
